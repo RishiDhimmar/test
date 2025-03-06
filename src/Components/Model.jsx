@@ -4,6 +4,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from '@react-three/drei';
 import { useDrop } from 'react-dnd'; // or another drag-drop lib
 
+//added changes
+
 // A component that loads and renders the model at a given position
 function Model({ modelUrl, position }) {
   const gltf = useLoader(GLTFLoader, modelUrl);
