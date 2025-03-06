@@ -11,7 +11,9 @@ function Model({ modelUrl, position }) {
   const gltf = useLoader(GLTFLoader, modelUrl);
   return <primitive object={gltf.scene} position={position} />;
 }
-
+function App() {
+    return 
+}
 function Scene() {
   const [models, setModels] = useState([]);
 
